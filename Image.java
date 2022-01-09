@@ -13,6 +13,10 @@ public class Image {
 	int height; // in pixels
 	String source; // file name
 	String quality; // informal
+        boolean check(int a){
+            if(a>10){
+return false;}else{return true;}
+}
 	/**
 	 * This is Image's constructor to create Image object which input:
 	 * @param width : int ,Image's weight
